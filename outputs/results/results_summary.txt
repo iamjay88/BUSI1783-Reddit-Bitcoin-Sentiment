@@ -1,0 +1,19 @@
+BUSI1783 - KEY RESULTS SUMMARY
+==================================================
+
+SENTIMENT-ONLY MODEL:
+Pre-ETF:  coef=-0.076, p<0.0001, R2=0.083
+Post-ETF: coef=-0.014, p=0.168 (n.s.), R2=0.003
+
+CHOW TEST (sentiment-only): F=10.43, p<0.0001 (significant break)
+CHOW TEST (full model, 7-day): F=1.94, p=0.101 (borderline)
+
+WINDOW ROBUSTNESS (full model Chow test):
+5-day:  F=4.60, p=0.0011 (significant)
+7-day:  F=1.94, p=0.101
+14-day: F=1.51, p=0.197
+30-day: F=2.12, p=0.076
+
+CONCLUSION: Evidence supports weakening of retail sentiment's
+predictive power on Bitcoin volatility following ETF approval,
+most clearly in the direct relationship and at short horizons.
